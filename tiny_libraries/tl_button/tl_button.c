@@ -38,10 +38,10 @@ uint8_t tl_btn_create(const uint8_t *name,
     }
 
     // 重置head的next指针指向
-    if (btn_head.next != NULL)
-    {
-        btn_head.next = NULL;
-    }
+    // if (btn_head.next != NULL)
+    // {
+    //     btn_head.next = NULL;
+    // }
 
     // 寻找链表尾
     tl_button_t *p1 = &btn_head;
